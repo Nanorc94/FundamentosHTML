@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evaluacion Final, Fundamentos HTML</title>
+</head>
+<body>
+<header>
+  <svg width="300px" heigth="150px" viewbox="0 0 300 150">
+    <image xlink:href="img/logo.svg" alt="Logo con mis Iniciales" width="300px" height="150px"></image>
+  </svg>
+</header>
+<section>
+  <h1>Hoja de Vida</h1>
+  <h2><u>Datos Personales</u></h2>
+  <h2>Nombre:</h2>
+  <h3>Mariano Leonel.</h3>
+  <h2>Apellido:</h2>
+  <h3>Di Giacomo.</h3>
+  <h2>Fecha de Nacimiento:</h2>
+  <h3>16 de Junio de 1994.</h3>
+  <h2>Lugar de Nacimiento:</h2>
+  <h3> Rosario, Santa Fe, Argentina.</h3>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educacion</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+  </nav>
+
+  <h2><u>Educacion</u></h2>
+<table  border="1">
+      <tr>
+    <td>Año</td>
+    <td>Institucion</td>
+    <td>Lugar</td>
+    <td>¿Culmino?</td>
+      </tr>
+      <tr>
+    <td>2015</td>
+    <td>Juan Manuel Bahias</td>
+    <td>Rosario</td>
+    <td>Si</td>
+      </tr>
+      <tr>
+    <td>2016</td>
+    <td>Instituto ICR</td>
+    <td>Rosario</td>
+    <td>Si</td>
+      </tr>
+</table>
+
+<h2><u>Agregar Estudios:</u></h2>
+<form>
+  <labe>Año:</labe>
+    <select>
+      <option value="2018">2018</option>
+      <option value="2017">2017</option>
+      <option value="2016">2016</option>
+      <option value="2015">2015</option>
+      <option value="2014">2014</option>
+      <option value="2013">2013</option>
+      <option value="2012">2012</option>
+      <option value="2011">2011</option>
+    </select><br>
+  <label>Institucion: </label><input type="text" name="institucion"><br>
+  <label>Lugar: </label><input type="text" name="lugar"><br>
+  <label>¿Culmino?</label><br>
+    <label>SI</label> <input type="radio" name="culmino" value="SI">
+    <label>NO</label><input type="radio" name="culmino" value="NO"><br>
+      <button type="submit" name="enviar">Enviar</button>
+</form>
+</section>
+<footer  align="center">
+
+    <b>Email:</b> marianodigiacomo@hotmail.com -
+    <b>Direccion:</b> Cachi 1607 Bis. -
+    <b>Telefono:</b> (+54) 9 (341) 2 685 531 -
+    <b>Facebook:</b> Mariano Di Giacomo.
+
+</footer>
+</body>
+</html>
